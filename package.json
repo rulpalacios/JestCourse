@@ -1,0 +1,23 @@
+{
+  "name": "jestcourse",
+  "version": "1.0.0",
+  "description": "Jest course",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env=node",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "jest",
+    "testing"
+  ],
+  "author": "Raul Palacios",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
